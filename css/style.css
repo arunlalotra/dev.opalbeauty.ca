@@ -1,0 +1,227 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+/* body css */
+body{margin: 0;font-family: 'Oswald', sans-serif;font-size: 14px;line-height: 24px;color: #fff;background-color: #101010;}
+*{margin: 0;padding: 0;}
+img{border: none;}
+ul,p,li,h1,h2,h3,h4,h5,h6{padding: 0;margin: 0;}
+a{color: #fff;}
+a:hover{color: #be1519;}
+.logo{max-height: 60px;margin-right: 100px;}
+.navbar {
+	background-color: #000;
+	border: none;
+}
+.navbar-brand {
+	height: auto;
+}
+.navbar-nav {
+	margin: 20px 0;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #be1519;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #be1519;
+	background-color: transparent;
+}
+.search {
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.search a {
+	background-color: #be1519;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding: 0;
+	margin-left: 30px;
+	display: inline-block;
+}
+.search a:hover, .search a:active,  .search a:focus {
+	background-color: #fff;
+	color: #be1519;
+	outline: none;
+}
+.search a:hover i, .search a:active i, .search a:focus i{
+	color: #be1519 !important;outline: none;
+}
+.navbar .search a i {
+	background-color: transparent;
+	border: none;
+	line-height: 50px;
+	color: #fff;
+}
+#search_inner {
+	display: none;
+	position: absolute;
+	background-color: #000;
+	left: 0;
+	margin: 0 auto;
+	right: 0;
+	top: 86px;
+	padding: 15px;
+}
+#search_inner.mystyle{
+	display: block;
+}
+.form-inline{
+	display: inline-block;
+}
+.navbar li {
+	line-height: 35px;
+}
+.search_ul {
+	list-style: none;
+}
+.search_ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+#search_inner .search_ul li a {
+	padding: 3px 7px;
+	margin: 0;
+	border-radius: 5px;
+	line-height: 1;
+	font-size: 12px;
+	background-color: rgba(190,21,25,.5);
+	width: 100%;
+	height: auto;
+}
+.search_ul .btn{
+	border: 1px solid #be1519;
+	color: #be1519;
+	background-color: #000;
+}
+.search_ul .btn:hover{
+	color: #fff;
+	background-color: #be1519;
+}
+.main_block{
+	margin-top: 100px;
+}
+.heading p {
+	padding: 20px 0;
+	font-size: 30px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #fff;
+}
+.main_block article{
+	margin-bottom: 50px;
+}
+.footer{
+	position: fixed;
+	width: 100%;
+	background-color: #000;
+	bottom: 0;
+	padding: 15px 0; 
+	left: 0;
+	z-index: 9999;
+}
+.slick-slide img {
+	display: block;
+	width: 100%;
+}
+.music_bar {
+	position: relative;
+	padding: 10px 0;
+	max-width: 500px;
+	margin: 20px auto;
+}
+.music_bar p{position: absolute;top: 0;left: 0;width: 100%;}
+.music_bar .music_bar_bottom{
+	background-color: #2a1111;
+	height: 3px;
+	border-radius: 3px;
+	z-index: 0;
+}
+.music_bar .music_bar_top{
+	background-color: #801c1c;
+	height: 4px;
+	border-radius: 4px;
+	z-index: 1;
+}
+.music_bar .music_bar_traget {
+	background-color: #801c1c;
+	height: 15px;
+	border-radius: 15px;
+	z-index: 2;
+	width: 15px;
+	box-shadow: 0 0px 10px rgba(255,255,255,.9);
+	top: -6px;
+	left: 19%;
+}
+.music_icons li{
+	list-style: none;display: inline-block;margin: 0 20px
+}
+.music_icons button{
+	background-color: transparent;border: none;
+}
+.music_icons button i{
+	color: #801c1c;
+	font-size: 25px;
+}
+@media(max-width: 991px){
+.logo {
+	margin-right: 30px;
+}
+.search {
+	margin: 0;
+	width: 100%;
+}
+.search a {
+	margin-left: 10px;
+	display: none;
+}
+#search_inner {
+	position: relative;
+	top: 0px;
+	display: block;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.form-inline {
+	display: block;
+}
+.search_ul .btn {
+	margin-top: 10px;
+}
+.navbar-nav {
+	margin: 20px 0 0;
+}
+.search_ul li{
+	display: none;
+}
+.nav.navbar-nav.navbar-right{
+	margin: 0;
+}
+.main_block{
+	margin-bottom: 150px;
+}
+}
+@media(max-width: 767px){
+.logo{max-height:40px;margin-right: 0px;}
+.music_icons li {
+	margin: 0 10px;
+}
+.music_icons button i {
+	font-size: 15px;
+}
+.music_bar {
+	margin: 6px auto;
+	padding: 4px 0;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 18px;
+}
+.slick-prev, .slick-next {
+	display: none !important;
+}
+}
