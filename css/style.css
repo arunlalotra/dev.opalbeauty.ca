@@ -1,8 +1,8 @@
 /* font family */
-@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 /* body css */
-body{margin: 0;font-family: 'Oswald', sans-serif;font-size: 14px;line-height: 24px;color: #fff;background-color: #101010;}
+body{margin: 0;font-family: 'Open Sans', sans-serif;font-size: 14px;line-height: 24px;color: #fff;background-color: #101010;}
 *{margin: 0;padding: 0;}
 img{border: none;}
 ul,p,li,h1,h2,h3,h4,h5,h6{padding: 0;margin: 0;}
@@ -105,20 +105,17 @@ a:hover{color: #be1519;}
 	background-color: #be1519;
 }
 .main_block{
-	margin-top: 100px;
-	margin-bottom: 150px;
+	margin-top: 80px;
 }
 .heading p {
-	padding: 20px 0;
-	font-size: 30px;
-	margin-bottom: 50px;
+	padding: 20px 0 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
 	border-bottom: 1px solid #fff;
 }
-.main_block article{
-	margin-bottom: 50px;
-}
+
 .footer{
-	position: fixed;
+	position: relative;
 	width: 100%;
 	background-color: #000;
 	bottom: 0;
@@ -134,7 +131,7 @@ a:hover{color: #be1519;}
 	position: relative;
 	padding: 10px 0;
 	max-width: 500px;
-	margin: 12px auto 5px;
+	margin: 20px auto;
 }
 .music_bar p{position: absolute;top: 0;left: 0;width: 100%;}
 .music_bar .music_bar_bottom{
@@ -203,7 +200,9 @@ a:hover{color: #be1519;}
 .nav.navbar-nav.navbar-right{
 	margin: 0;
 }
-
+.main_block{
+	margin-bottom: 150px;
+}
 }
 @media(max-width: 767px){
 .logo{max-height:40px;margin-right: 0px;}
